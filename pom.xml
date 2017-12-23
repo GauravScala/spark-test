@@ -51,6 +51,6 @@
         </profile>
 </profiles>	
 <build>	
-	<sourceDirectory>src/main/scala</sourceDirectory>
+	<sourceDirectory>/Users/g0k004g/workspace4/sprk-exmpl-2/src/main/scala</sourceDirectory>
 </build>	
 </project>
