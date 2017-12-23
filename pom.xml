@@ -31,7 +31,7 @@
 	<id>mymavenrepo.read</id>
 	<url>https://mymavenrepo.com/repo/Xcx59qhX8q6TiXhmNs3t/</url>
 	</repository>
-<repositories>
+</repositories>
 
 <distributionManagement>
 	<repository>
