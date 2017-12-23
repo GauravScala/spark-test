@@ -39,6 +39,9 @@
 	<url>https://mymavenrepo.com/repo/RbbWxSpJMIUKGELDx94d/</url>
 	</repository>
 </distributionManagement>
+ <properties>
+        <src.dir>src/main/java</src.dir>
+ </properties>
 <build>	
 	<sourceDirectory>src/main/scala</sourceDirectory>
 </build>	
