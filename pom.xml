@@ -40,8 +40,16 @@
 	</repository>
 </distributionManagement>
 <properties>
-        <src.dir>src/main/scala</src.dir>
+        <src.dir>/Users/g0k004g/workspace4/sprk-exmpl-2/src/main/scala</src.dir>
 </properties>
+<profiles>
+        <profile>
+            <id>development</id>
+            <properties>
+                <src.dir>/Users/g0k004g/workspace4/sprk-exmpl-2/src/main/scala</src.dir>
+            </properties>
+        </profile>
+</profiles>	
 <build>	
 	<sourceDirectory>src/main/scala</sourceDirectory>
 </build>	
