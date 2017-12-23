@@ -25,4 +25,18 @@
     <version>1.6.3</version>
 </dependency>
 	</dependencies>
+	
+<repositories>
+	<repository>
+	<id>mymavenrepo.read</id>
+	<url>https://mymavenrepo.com/repo/Xcx59qhX8q6TiXhmNs3t/</url>
+	</repository>
+<repositories>
+
+<distributionManagement>
+	<repository>
+	<id>mymavenrepo.read</id>
+	<url>https://mymavenrepo.com/repo/RbbWxSpJMIUKGELDx94d/</url>
+	</repository>
+</distributionManagement>
 </project>
