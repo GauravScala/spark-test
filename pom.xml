@@ -50,9 +50,27 @@
             </properties>
         </profile>
 </profiles>	
-<build>	
-	<sourceDirectory>/Users/Shared/Jenkins/Home/workspace/maven-2/src/main/scala</sourceDirectory>
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.scala-tools</groupId>
+            <artifactId>maven-scala-plugin</artifactId>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>compile</goal>
+                        <goal>testCompile</goal>
+                    </goals>
+                </execution>
+            </executions>
+            <configuration>
+                <sourceDir>src/main/scala</sourceDir>
+                <jvmArgs>
+                    <jvmArg>-Xms64m</jvmArg>
+                    <jvmArg>-Xmx1024m</jvmArg>
+                </jvmArgs>
+            </configuration>
+        </plugin>
+    </plugins>
 </build>
-	
-	
 </project>
