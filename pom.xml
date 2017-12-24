@@ -38,18 +38,7 @@
 	<id>mymavenrepo.read</id>
 	<url>https://mymavenrepo.com/repo/RbbWxSpJMIUKGELDx94d/</url>
 	</repository>
-</distributionManagement>
-<properties>
-        <src.dir>/Users/Shared/Jenkins/Home/workspace/maven-2/src/main/scala</src.dir>
-</properties>
-<profiles>
-        <profile>
-            <id>development</id>
-            <properties>
-                <src.dir>/Users/Shared/Jenkins/Home/workspace/maven-2/src/main/scala</src.dir>
-            </properties>
-        </profile>
-</profiles>	
+</distributionManagement>	
 <build>
     <plugins>
         <plugin>
