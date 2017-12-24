@@ -7,7 +7,7 @@ import org.apache.kafka.clients.consumer.KafkaConsumer
 import scala.collection.JavaConverters._
 
 object kafkac extends App {
-///sec comm three
+///sec comm four
   import java.util.Properties
 
   val TOPIC="test"
